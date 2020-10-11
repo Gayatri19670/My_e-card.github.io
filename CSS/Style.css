@@ -38,10 +38,13 @@ body {
     /* box-shadow: 4px 0px 12px rgb(12, 1, 1) inset; */
 }
 
-.front i
+.front img {
+    width: 100%;
+    height: 90%;
+}
 
 .front {
-    background: url(<img src="/Gayatri19670/My_e-card.github.io/blob/main/Img/img1.jpeg?raw=true" alt="img1.jpeg">);
+    background: url(/My_e-card/Img/img1.jpeg);
     background-size: 100% 100%;
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
