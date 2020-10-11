@@ -44,7 +44,7 @@ body {
 }
 
 .front {
-    background: url(https://github.com/Gayatri19670/My_e-card.github.io/blob/main/Img/img1.jpeg);
+    background: url(/My_e-card/Img/img1.jpeg);
     background-size: 100% 100%;
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
