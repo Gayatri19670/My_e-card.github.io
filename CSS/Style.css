@@ -6,7 +6,8 @@
 }
 
 body {
-    background: rgb(202, 109, 109);
+    background: #f857a6;
+    /* background: linear-gradient(to right, #f857a6, #ff5858); */
 }
 
 .mainBody {
@@ -33,6 +34,7 @@ body {
     height: 100%;
     overflow: hidden;
     backface-visibility: hidden;
+    background: linear-gradient(to right, #f857a6, #ff5858);
     position: absolute;
     transition: transform 0.6s linear;
     /* box-shadow: 4px 0px 12px rgb(12, 1, 1) inset; */
@@ -43,23 +45,32 @@ body {
     height: 90%;
 }
 
-
 .front {
     background: url(https://github.com/Gayatri19670/My_e-card.github.io/blob/main/Img/img1.jpeg?raw=true);
     background-size: 100% 100%;
     transform: perspective(600px) rotateY(0deg);
-    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
-    border-radius: 15px;
+    box-shadow: 4px 0px 12px rgb(75, 71, 71) inset;
+    border-radius: 10px;
 }
 
 .back {
+    background: linear-gradient(to right, #ff5858, #f857a6);
     transform: perspective(600px) rotateY(180deg);
-    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
-    border-radius: 15px;
+    box-shadow: 4px 0px 12px #f857a6 inset;
+    border-radius: 10px;
 }
 
-h1 {
-    top: 10%;
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: -3px;
+    background: -webkit-linear-gradient(rgb(9, 206, 2), rgb(5, 5, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span {
+    color: white;
 }
 
 .back-content {
@@ -70,11 +81,11 @@ h1 {
 
 .sm a {
     display: inline-flex;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.4s;
     border-radius: 50%;
 }
