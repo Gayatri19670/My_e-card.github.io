@@ -70,11 +70,12 @@ h2 {
 }
 
 span {
-    color: white;
+    color: rgb(19, 23, 241);
     font-size: 20px;
 }
 
 p {
+    color: white;
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
